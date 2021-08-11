@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Route::get('/panel', function () {
     return view('admin.index');
-});
+})->name('amir');
 
 

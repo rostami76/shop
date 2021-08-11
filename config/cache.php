@@ -32,7 +32,7 @@ return [
     */
 
     'stores' => [
-
+        /*
         'apc' => [
             'driver' => 'apc',
         ],
@@ -92,6 +92,10 @@ return [
             'driver' => 'octane',
         ],
 
+        */
+        'none' => [
+            'driver' => 'null',
+        ]
     ],
 
     /*
